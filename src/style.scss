@@ -1,0 +1,158 @@
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	// background-color: black;
+}
+
+
+header {
+	background: #000;
+	color: #bebebe;
+	width: 100%;
+	a {
+		text-decoration: none;
+	}
+
+
+	.bx--grid {
+		width: 100%;
+	}
+
+	.bx--header__name {
+		.header--title {
+			white-space: nowrap;
+			color: #fff;
+			text-decoration: none;
+		}
+
+		.header--welcome-message {
+			white-space: nowrap;
+			text-align: right;
+			display: inline-block;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			width: 100%;
+			margin-left: 1rem;
+		}
+	}
+
+	.header-action--user-info {
+		border-bottom: 1px solid #161616;
+
+		.avatar {
+			height: 30px;
+			width: 30px;
+			border: 2px solid lightgray;
+			border-radius: 15px;
+			-webkit-border-radius: 15px;
+			-moz-border-radius: 15px;
+			-ms-border-radius: 15px;
+			-o-border-radius: 15px;
+		}
+	}
+
+	.bx--header-panel {
+		max-height: 210px;
+
+		&.bx--header-panel--expanded {
+			width: auto;
+			min-width: 385px;
+		}
+
+		.switcher-item-profile {
+			height: 130px;
+			img {
+				border-radius: 45px;
+				-webkit-border-radius: 45px;
+				-moz-border-radius: 45px;
+				-ms-border-radius: 45px;
+				-o-border-radius: 45px;
+			}
+
+			.grid--user-info {
+				padding: 0;
+
+				.col--user-avatar {
+					padding: 0.5rem 1rem;
+				}
+				.col--user-name {
+					padding: 1.5rem;
+					word-break: break-all;
+				}
+			}
+		}
+
+		a {
+			height: auto;
+		}
+	}
+}
+
+.bx--form, nav {
+	padding: 3rem;
+}
+
+.bx--data-table-content {
+	margin: 2rem;
+}
+
+
+.side--view {
+	margin-top: 1rem;
+	padding-bottom: 2rem;
+
+	.view-title {
+		margin: 2rem 0;
+	}
+}
+
+.top-right {
+	position: absolute;
+	right: 0;
+	padding: 1rem;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.bx--link:hover {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.font-weight-normal {
+	font-weight: normal;
+}
+
+.bx--grid {
+	margin-left: 0;
+	width: 100%;
+}
+
+.bx--select-input__wrapper {
+	width: 50%;
+}
+
+.bx--search-input {
+	background: rgb(31, 30, 30);
+	color: honeydew;
+}
+
+.bx--header__action > a {
+	color: #fff !important;
+}
+
+a {
+	cursor: pointer;
+}
+
+#icon-view:hover {
+	color: purple;
+	cursor: pointer;
+}
