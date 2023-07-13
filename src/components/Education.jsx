@@ -5,7 +5,10 @@ function Education() {
 
 
 	return(
-        <h1>Education</h1>
+		<>
+			<h1>Education</h1>
+			<p>test container</p>
+		</>
 	);
 }
 
